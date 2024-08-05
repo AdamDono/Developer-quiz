@@ -12,3 +12,8 @@ body {
     background-color: #333;
     color: #fff;
 }
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
