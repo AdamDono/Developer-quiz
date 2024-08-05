@@ -53,6 +53,9 @@ body {
 /* hero section css */
 .herosection{
     align-items: center;
+    max-height: 100vh;
+    background-color: antiquewhite;
+ 
 }
 
 .herosection {
@@ -62,11 +65,14 @@ body {
   
   .herosection h3 {
     font-size: 1.5em;
+    margin-top: 170px;
+    margin-bottom: 70px;
   }
   
   .herosection h1 {
     font-size: 2.5em;
     margin: 10px 0;
+    margin-bottom: 50px;
   }
   
   .herosection p {
@@ -101,61 +107,51 @@ body {
         text-align: center;
     }
 }
-
-
 .container {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 20px;
+    width: 100%;
+    height: 100vh; 
   }
   .left-section,
   .right-section {
-    flex: 1 1 50%;
-    padding: 20px;
+  
+    flex: 1; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
   }
   .left-section img {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto;
   }
   .right-section {
     text-align: center;
   }
-  @media (max-width: 768px) {
-    .left-section,
-    .right-section {
-      flex: 1 1 100%;
-      padding: 10px;
-=======
 
-/* Responsive styles */
-@media (max-width: 768px) {
-    .herosection h3 {
-      font-size: 1.2em;
-    }
+
   
-    .herosection h1 {
-      font-size: 2em;
-    }
-  
-    .herosection p {
-      font-size: 1em;
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column; /* Stack sections vertically on smaller screens */
     }
   }
-  
-  @media (max-width: 480px) {
-    .herosection h3 {
-      font-size: 1em;
-    }
-  
-    .herosection h1 {
-      font-size: 1.5em;
-    }
-  
-    .herosection p {
-      font-size: 0.9em;
 
-    }
+  .herosection1{
+    text-align: start;
+    margin-top: 250px;
+    margin-left: 50px;
+  }
+
+  .p{
+    word-wrap: break-word; /* Ensure long words or URLs break to the next line */
+ 
+  }
+
+  button{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
   }
