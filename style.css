@@ -49,6 +49,33 @@ body {
 }
 
 
+
+/* hero section css */
+.herosection{
+    align-items: center;
+}
+
+.herosection {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .herosection h3 {
+    font-size: 1.5em;
+  }
+  
+  .herosection h1 {
+    font-size: 2.5em;
+    margin: 10px 0;
+  }
+  
+  .herosection p {
+    font-size: 1.2em;
+  }
+  
+
+
+
 /*   responsiveness for navigation  */
 @media (max-width: 768px) {
     .hamburger {
@@ -74,3 +101,33 @@ body {
         text-align: center;
     }
 }
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .herosection h3 {
+      font-size: 1.2em;
+    }
+  
+    .herosection h1 {
+      font-size: 2em;
+    }
+  
+    .herosection p {
+      font-size: 1em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .herosection h3 {
+      font-size: 1em;
+    }
+  
+    .herosection h1 {
+      font-size: 1.5em;
+    }
+  
+    .herosection p {
+      font-size: 0.9em;
+    }
+  }
