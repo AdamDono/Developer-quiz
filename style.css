@@ -10,8 +10,14 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
-    background-color: #333;
+    background-color: #fbf9f9;
     color: #fff;
+    
+    
+}
+
+.navbar:hover {
+    background-color: rgb(3, 3, 3);
 }
 
 .logo {
@@ -189,23 +195,29 @@ body {
 .container4 {
     max-width: 1200px;
     margin: 0 auto;
-    text-align: center;
+    text-align: start;
 }
 
 .dropdown-container {
     margin-bottom: 20px;
+    align-items: center;
+margin-left: 500px;
+    width: 500px;
+    
 }
 
 .dropdown-container label {
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
+    text-align: center;
 }
 
 #select-menu {
     width: 50%;
     padding: 10px;
     font-size: 16px;
+    text-align: center;
 }
 
 .cards-container {
