@@ -204,7 +204,7 @@ body {
     box-sizing: border-box;
 }
 
-/* Ensure proper layout for the third card in the middle */
+
 .cards-container .card:nth-child(3) {
     flex-basis: 100%;
     max-width: calc(50% - 20px);
