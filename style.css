@@ -158,24 +158,20 @@ body {
   }
 
 
-.third-section {
+  .third-section {
     padding: 40px 20px;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.container4 {
+.container {
     max-width: 1200px;
     margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
+    text-align: center;
 }
 
 .dropdown-container {
-    flex: 1;
-    min-width: 200px;
-    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .dropdown-container label {
@@ -185,52 +181,54 @@ body {
 }
 
 #select-menu {
-    width: 100%;
+    width: 50%;
     padding: 10px;
     font-size: 16px;
 }
 
 .cards-container {
-    flex: 2;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     gap: 20px;
 }
 
 .card {
-    flex: 1;
+    flex: 1 1 calc(33.333% - 40px);
     min-width: 200px;
     background-color: #fff;
     border: 1px solid #ddd;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    box-sizing: border-box;
 }
 
-.card h3 {
-    margin-top: 0;
-}
-
-.card p {
-    margin-bottom: 0;
+/* Ensure proper layout for the third card in the middle */
+.cards-container .card:nth-child(3) {
+    flex-basis: 100%;
+    max-width: calc(50% - 20px);
+    margin: 0 auto;
 }
 
 /* Responsive Styles */
 @media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-    }
-
     .dropdown-container {
         margin-bottom: 20px;
-        margin-right: 0;
+    }
+
+    #select-menu {
+        width: 100%;
     }
 
     .cards-container {
         flex-direction: column;
+        align-items: center;
     }
 
     .card {
+        flex-basis: 100%;
+        max-width: 100%;
         margin-bottom: 20px;
     }
 }
