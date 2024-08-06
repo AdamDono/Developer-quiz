@@ -61,6 +61,7 @@ body {
     align-items: center;
     max-height: 100vh;
     background-color: rgb(226, 226, 226);
+  
  
 }
 
@@ -119,11 +120,13 @@ body {
 }
 .container10 {
     display: flex;
-   
-    height: 100vh; 
+
+  margin-bottom: 90px;
     background-color: #F5F5F5
   }
-  .left-section,
+  .left-section{
+    margin-top: 90px;
+  }
   .right-section {
   
     flex: 1; 
@@ -137,6 +140,7 @@ body {
     max-width: 100%;
     height: auto;
     display: block;
+    border-radius: 19px;
   }
   .right-section {
     text-align: center;
