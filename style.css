@@ -1,7 +1,8 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: rgb(254, 254, 254);
+    
 }
 
 .navbar {
@@ -48,16 +49,25 @@ body {
     font-size: 18px;
 }
 
+.t{
+    width: 900px;
+    text-align: center;
+    margin-left: 350px;
+}
 
 
 /* hero section css */
 .herosection{
     align-items: center;
     max-height: 100vh;
-    background-color: antiquewhite;
+    background-color: rgb(226, 226, 226);
  
 }
 
+.font{
+  font-weight: 100;
+  font-style: normal;
+}
 .herosection {
     padding: 20px;
     text-align: center;
@@ -111,7 +121,7 @@ body {
     display: flex;
    
     height: 100vh; 
-    background-color: rgb(110, 106, 106);
+    background-color: #F5F5F5
   }
   .left-section,
   .right-section {
@@ -147,7 +157,10 @@ body {
   }
 
   .p{
-    word-wrap: break-word; /* Ensure long words or URLs break to the next line */
+    width: 600px;
+    margin-right: 20px;
+
+ 
  
   }
 
@@ -160,10 +173,15 @@ body {
 
   .third-section {
     padding: 40px 20px;
-    background-color: #fff;
+    background-color: rgb(226, 226, 226);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.u{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
 .container4 {
     max-width: 1200px;
     margin: 0 auto;
@@ -261,15 +279,17 @@ body {
 .stacked-cards-section {
     position: relative;
     padding: 60px 20px;
-    background-color: #fff;
+
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.container {
+.container00 {
     max-width: 1200px;
+    height: 800px;
     margin: 0 auto;
     position: relative;
     text-align: center;
+    background-color: rgb(226, 226, 226);
 }
 
 .card9 {
@@ -291,6 +311,7 @@ body {
     z-index: 1;
     left: 100px;
     top: -50px;
+    background-color: #969696;
 }
 
 .card2 {
@@ -299,10 +320,12 @@ body {
     left: 290px;
 }
 
+
 .card3 {
     z-index:5 ;
     top: 180px;
     left: 500px;
+    background-color: #969696;
 }
 
 .card4 {
@@ -315,6 +338,7 @@ body {
     z-index: 5;
     top: 470px;
     left: 900px;
+    background-color: #969696;
 }
 
 .card6 {
@@ -351,5 +375,4 @@ body {
     }
 }
 
-=======
 
