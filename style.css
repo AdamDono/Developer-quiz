@@ -216,17 +216,81 @@ body {
 }
 
 .card {
-    flex: 1 1 calc(33.333% - 40px);
-    min-width: 100px;
+    flex: 1 1;
+    width: 200px;
+height: 350px;
     background-color: #fff;
     border: 1px solid #ddd;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     box-sizing: border-box;
-    margin-bottom: 20px;
-    
+top: 77px;
+ 
 }
+
+.card-03 {
+    flex: 1 1;
+    width: 200px;
+height: 350px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-sizing: border-box;
+margin-left: 500px;
+margin-bottom: -150px;
+
+ 
+}
+
+.card-02 {
+    flex: 1 1;
+    width: 200px;
+height: 350px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-sizing: border-box;
+margin-left: 500px;
+margin-bottom: -150px;
+
+ 
+}
+
+.card-01 {
+    flex: 1 1;
+    width: 200px;
+height: 350px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-sizing: border-box;
+margin-left: 90px;
+
+ 
+}
+
+.card-0 {
+    flex: 1 1;
+    width: 390px;
+height: 350px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-sizing: border-box;
+margin-left: 1200px;
+margin-top: -350px;
+ 
+}
+
 
 
 .cards-container .card:nth-child(3) {
