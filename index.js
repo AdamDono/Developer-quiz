@@ -6,3 +6,12 @@ document.addEventListener('DOMContentLoaded', function() {
         navLinks.classList.toggle('active');
     });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const selectMenu = document.getElementById('select-menu');
+
+    selectMenu.addEventListener('change', function() {
+        console.log(`Selected: ${this.value}`);
+    
+    });
+});
